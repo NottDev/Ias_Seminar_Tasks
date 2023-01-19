@@ -1,8 +1,8 @@
-package first_task;
+package second_task;
 
 import java.util.*;
 
-import static first_task.OptionsAvailable.*;
+import static second_task.OptionsAvailable.*;
 
 public class StoreClientsRecord {
 
@@ -17,8 +17,8 @@ public class StoreClientsRecord {
             + "Escribe una de las opciones";
 
         Scanner scanner = new Scanner(System.in);
-        int clientFindPosition;
-        int clientDeletePosition;
+        int clientFindId;
+        int clientDeleteId;
         boolean exit = false;
 
         while(!exit) {
@@ -59,29 +59,29 @@ public class StoreClientsRecord {
 
                     System.out.println(chooseMessage + optionTyped);
 
-                    System.out.println("Por favor indique la posición del usuario a eliminar.");
+                    System.out.println("Por favor indique la cédula del usuario a eliminar.");
                     try{
-                        clientDeletePosition = scanner.nextInt();
+                        clientDeleteId = scanner.nextInt();
                     } catch (InputMismatchException e){
                         System.out.println("No es posible usar el valor");
                         break;
                     }
                     
-                    optionB(clientDeletePosition);
+                    optionB(clientDeleteId);
                     break;
                 case "c":
 
                     System.out.println(chooseMessage + optionTyped);
 
-                    System.out.println("Por favor indique la posición del usuario que busca.");
+                    System.out.println("Por favor indique la cédula del usuario que busca.");
                     try{
-                        clientFindPosition = scanner.nextInt();
+                        clientFindId = scanner.nextInt();
                     } catch (InputMismatchException e){
                         System.out.println("No es posible usar el valor");
                         break;
                     }
                     
-                    optionC(clientFindPosition);
+                    optionC(clientFindId);
                     break;
                 case "d":
 
