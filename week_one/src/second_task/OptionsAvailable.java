@@ -14,13 +14,12 @@ public class OptionsAvailable {
         // Add a new client
         Client newUser = new Client(clientName, clientID);
 
-        clientsRecord.stream()
-                .forEach(client -> {
-                if(client.getId() == clientID){
-                    System.out.println("La cédula ya ha sido asociada a un usuario en el sistema.");
-                    return;
-                };
-            });
+        for (Client client:clientsRecord) {
+            if(client.getId() == clientID){
+                System.out.println("La cédula ya ha sido asociada a un usuario en el sistema.");
+                return;
+            }
+        }
 
         clientsRecord.add(newUser);
     }
@@ -60,19 +59,33 @@ public class OptionsAvailable {
         // Get all the clients
         if(!clientsRecord.isEmpty()) {
 
-            clientsRecord.stream()
+            List<Client> clientRecordAux = clientsRecord.stream()
+                    .sorted(Comparator.comparing(Client::getName))
+                    .collect(Collectors.toList());
+
+            for (int i = 0; i < clientRecordAux.size(); i++) {
+                String name = clientRecordAux.get(i).getName();
+                int id = clientRecordAux.get(i).getId();
+
+                System.out.println("Cliente número " + (i+1)
+                        + ": El cliente se llama " + name
+                        + " y su cédula es " + id + "."
+                );
+            }
+
+            /*            clientsRecord.stream()
                 .sorted(Comparator.comparing(Client::getName))
                 .collect(Collectors.toList())
                 .forEach(client ->{
                 String name = client.getName();
                 int id = client.getId();
-                int index = clientsRecord.indexOf(client) + 1;
+                int index = 0;
     
-                System.out.println("Cliente número " + (index)
+                System.out.println("Cliente número " + (index++)
                     + ": El cliente se llama " + name
                     + " y su cédula es " + id + "."
                     );
-            });
+            });*/
         } 
         else {
             System.out.println("No se han encontrado clientes dentro del sistema.");

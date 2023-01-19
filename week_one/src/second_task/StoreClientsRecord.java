@@ -22,7 +22,7 @@ public class StoreClientsRecord {
         boolean exit = false;
 
         while(!exit) {
-            String optionTyped = "";
+            String optionTyped;
             System.out.println(menuOptions);
             optionTyped = scanner.next();
 
