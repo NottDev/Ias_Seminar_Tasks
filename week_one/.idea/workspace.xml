@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ef7aced-0eb7-4522-bec1-47d26c8a9c85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/.idea/week_one.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/out/production/week_one/first_task/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/out/production/week_one/first_task/OptionsAvailable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/out/production/week_one/first_task/StoreClientsRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/out/production/week_one/second_task/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/out/production/week_one/second_task/OptionsAvailable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/out/production/week_one/second_task/StoreClientsRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/first_task/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/first_task/OptionsAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/first_task/StoreClientsRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/second_task/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/second_task/OptionsAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/second_task/StoreClientsRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/src/main/java/com/example/demo_example/DemoExampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/src/main/java/com/example/demo_example/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_example/demo_example/src/test/java/com/example/demo_example/DemoExampleApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/week_one.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week_one/first_task/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week_one/first_task/OptionsAvailable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week_one/first_task/StoreClientsRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week_one/second_task/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week_one/second_task/OptionsAvailable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/week_one/second_task/StoreClientsRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_task/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_task/OptionsAvailable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_task/StoreClientsRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second_task/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second_task/OptionsAvailable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second_task/StoreClientsRecord.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KVbFedMC49EozfgiDnIBSvzSfl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/IntelliJ Projects/Ias_Seminar_Tasks/week_one/demo_example/demo_example",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ef7aced-0eb7-4522-bec1-47d26c8a9c85" name="Changes" comment="" />
+      <created>1674062596334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674062596334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
