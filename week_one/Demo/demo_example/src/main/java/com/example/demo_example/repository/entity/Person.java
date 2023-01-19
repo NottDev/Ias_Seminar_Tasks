@@ -1,5 +1,6 @@
 package com.example.demo_example.repository.entity;
 
+import com.example.demo_example.dto.PersonDTO;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -8,16 +9,29 @@ import jakarta.persistence.Id;
 public class Person {
 
     @Id
-    private Integer PersonId;
+    private Integer id;
     @Column(name = "PERSON_NAME", nullable = false)
     private String name;
 
-    public Integer getPersonId() {
-        return PersonId;
+    public Person(String name, Integer id){
+        this.name = name;
+        this.id = id;
     }
 
-    public void setPersonId(Integer personId) {
-        PersonId = personId;
+    public Person(){
+    }
+
+    public Person(PersonDTO person) {
+        this.name = getName();
+        this.id = getId();
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
