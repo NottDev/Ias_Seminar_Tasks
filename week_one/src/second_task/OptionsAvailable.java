@@ -72,20 +72,6 @@ public class OptionsAvailable {
                         + " y su cédula es " + id + "."
                 );
             }
-
-            /*            clientsRecord.stream()
-                .sorted(Comparator.comparing(Client::getName))
-                .collect(Collectors.toList())
-                .forEach(client ->{
-                String name = client.getName();
-                int id = client.getId();
-                int index = 0;
-    
-                System.out.println("Cliente número " + (index++)
-                    + ": El cliente se llama " + name
-                    + " y su cédula es " + id + "."
-                    );
-            });*/
         } 
         else {
             System.out.println("No se han encontrado clientes dentro del sistema.");
